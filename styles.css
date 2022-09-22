@@ -11,7 +11,7 @@ body {
 
 section,
 .first {
-    padding: 0 200px 24px 200px;
+    padding: 0 200px 100px 200px;
     background-color: #1F2937;
 }
 .main {
@@ -80,6 +80,11 @@ button {
     border-radius: 8px;
     width: fit-content;
 }
+
+button:hover {
+    background-color: #E5E7EB; 
+    color: #1F2937;
+  }
 
 .hero-btn {
     border: none;
